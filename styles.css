@@ -9,3 +9,84 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+
+/* Navigation */
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #1b242f;
+  font-weight: 700;
+}
+
+.logo {
+  cursor: pointer;
+  color: #edf0f1;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0 20px;
+  text-transform: capitalize;
+}
+
+.nav_links li a:hover {
+  background-color: #143155;
+  color: #edf0f1;
+  padding: 27px 20px;
+}
+
+/* welcome section */
+.welcome-section {
+  background-color: #1b242f;
+  background: url(http://findmatthew.com/img/filler.png) center center/cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-section h1 {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 50vh;
+}
+
+.welcome-section p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.welcome-section button {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 7rem;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  padding: 9px 25px;
+  margin-top: 1rem;
+}
+
+.cta {
+  cursor: pointer;
+}
